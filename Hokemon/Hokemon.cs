@@ -51,7 +51,7 @@ namespace Hokemon
 
         public void get_details()
         {
-            Console.WriteLine("\n**********\nName: {0}\nHealth: {1}/{2}\nAttack value: {3}\nSpeed value: {4}\nDefense value: {5}", name, Health, max_health, attack, speed, defense);
+            Console.WriteLine("\n********************\n\nName: {0}\nHealth: {1}/{2}\nAttack value: {3}\nSpeed value: {4}\nDefense value: {5}\n\n********************", name, Health, max_health, attack, speed, defense);
         }
 
         public int random_int_generator(int min_value, int max_value) // These are parameters
