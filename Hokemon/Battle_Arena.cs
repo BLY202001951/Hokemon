@@ -15,5 +15,10 @@ namespace Hokemon
         {
             Console.WriteLine("\n{0} says: 'I want to battle!'", hokeChallenger.Name);
         }
+
+        public void ChallengeAccepted(Hokemon hokeAccepter)
+        {
+            Console.WriteLine("\n{0} says: 'I accept your challenge!'", hokeAccepter.Name);
+        }
     }
 }

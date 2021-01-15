@@ -21,6 +21,7 @@ namespace Hokemon
             Battle_Arena firstArena = new Battle_Arena(); // Instantiated Battle_Arena
 
             firstArena.ChallengeMe(hokeObject01);
+            firstArena.ChallengeAccepted(hokeObject02);
         }
     }
 }
