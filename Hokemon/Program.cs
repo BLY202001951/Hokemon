@@ -17,6 +17,8 @@ namespace Hokemon
             Console.WriteLine("\nHokemon name is: {0}", hokeObject02.Name);
 
             hokeObject02.get_details();
+
+            Battle_Arena firstArena = new Battle_Arena();
         }
     }
 }
