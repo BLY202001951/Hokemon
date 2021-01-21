@@ -18,13 +18,14 @@ namespace Hokemon
 
             hokeObject02.get_details();
 
+            // Using the about method
+            hokeObject01.about();
+
             Battle_Arena firstArena = new Battle_Arena(); // Instantiated Battle_Arena
 
             firstArena.ChallengeMe(hokeObject01);
             firstArena.ChallengeAccepted(hokeObject02);
-
-            // Using the about method
-            hokeObject01.about();
+            firstArena.Battle(hokeObject01, hokeObject02);
         }
     }
 }

@@ -64,7 +64,7 @@ namespace Hokemon
 
         public void about()
         {
-            Console.WriteLine("I am a mystical species known as Hokemon!");
+            Console.WriteLine("\nI am a mystical species known as Hokemon!");
         }
 
         public int attackCalculator()
