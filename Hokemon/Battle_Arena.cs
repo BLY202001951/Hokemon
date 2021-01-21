@@ -41,8 +41,8 @@ namespace Hokemon
                 Console.WriteLine("\n{0}: Defends with value {1}", Defender.Name, defenceValue);
                 Console.WriteLine("\n{0}: Health is {1}", Defender.Name, Defender.Health);
 
-                Defender.Health = (Defender.Health + defenceValue) - attackValue;
                 Console.WriteLine("\nCalculation: (Health {0} + Defence {1}) - Attack {2}", Defender.Health, defenceValue, attackValue);
+                Defender.Health = (Defender.Health + defenceValue) - attackValue;
 
                 Console.WriteLine("\n{0}: Health fell to {1}", Defender.Name, Defender.Health);
 
