@@ -22,6 +22,9 @@ namespace Hokemon
 
             firstArena.ChallengeMe(hokeObject01);
             firstArena.ChallengeAccepted(hokeObject02);
+
+            // Using the about method
+            hokeObject01.about();
         }
     }
 }
