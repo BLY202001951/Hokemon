@@ -26,6 +26,10 @@ namespace Hokemon
             firstArena.ChallengeMe(hokeObject01);
             firstArena.ChallengeAccepted(hokeObject02);
             firstArena.Battle(hokeObject01, hokeObject02);
+
+            Random rnd = new Random();
+            bool repeatGame = true;
+            string result;
         }
     }
 }
