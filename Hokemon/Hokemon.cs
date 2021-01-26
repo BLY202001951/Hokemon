@@ -16,6 +16,7 @@ namespace Hokemon
         private int attack;
         private int speed;
         private int defence;
+        private string team = "Hokemon";
 
         // Properties
 
@@ -29,6 +30,12 @@ namespace Hokemon
         {
             get { return health; }
             set { health = value; }
+        }
+
+        public string Team
+        {
+            get { return team; }
+            set { team = value; }
         }
 
         // Methods

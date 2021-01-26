@@ -6,7 +6,10 @@ namespace Hokemon
 {
     class Halor: Hokemon // Inheriting from parent Hokemon class
     {
-        private string team = "Halor";
+        public Halor()
+        {
+            Team = "Halor";
+        }
 
         public void about() // Polymorphism from the Hokemon about method
         {

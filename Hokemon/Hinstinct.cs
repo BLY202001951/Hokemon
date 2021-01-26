@@ -4,9 +4,12 @@ using System.Text;
 
 namespace Hokemon
 {
-    class Hinstinct: Hokemon
+    class Hinstinct : Hokemon
     {
-        private string team = "Hinstinct";
+        public Hinstinct()
+        {
+            Team = "Hinstinct";
+        }
 
         public void about()
         {
