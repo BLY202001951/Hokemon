@@ -27,9 +27,21 @@ namespace Hokemon
             firstArena.ChallengeAccepted(hokeObject02);
             firstArena.Battle(hokeObject01, hokeObject02);
 
+            // Declaring members
+            Hinstinct[] ChallengerArray = new Hinstinct[3];
+
             Random rnd = new Random();
             bool repeatGame = true;
             string result;
+
+            // Creating player Hokemon
+            Halor playerHokemon01 = new Halor(); // Instantiation from Halor class
+
+            // NPC Hokemon
+            for (int i = 0; i < ChallengerArray.Length; i++)
+            {
+                ChallengerArray[i] = new Hinstinct(); // Instatiating challenger Hokemon
+            }
         }
     }
 }
