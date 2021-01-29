@@ -49,7 +49,7 @@ namespace Hokemon
                 firstArena.ChallengeMe(playerHokemon01);
                 firstArena.Battle(playerHokemon01, ChallengerArray[rnd.Next(0, ChallengerArray.Length)]);
 
-                Console.WriteLine("Do you want to repeat the game? (y/n)");
+                Console.WriteLine("\nDo you want to repeat the game? (y/n)");
                 result = Console.ReadLine();
                 if (result.ToLower()[0] == 'n')
                 {

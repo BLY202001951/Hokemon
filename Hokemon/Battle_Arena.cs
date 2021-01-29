@@ -13,7 +13,7 @@ namespace Hokemon
 
         public void ChallengeMe(Hokemon hokeChallenger)
         {
-            Console.WriteLine("\n{0} says: 'I want to battle!'", hokeChallenger.Name);
+            Console.WriteLine("\n\n{0} says: 'I want to battle!'", hokeChallenger.Name);
         }
 
         public void ChallengeAccepted(Hokemon hokeAccepter)
