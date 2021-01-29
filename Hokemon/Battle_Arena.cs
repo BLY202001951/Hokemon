@@ -55,6 +55,15 @@ namespace Hokemon
                     Defender = tempHoke;
                 }
             }
+
+            if (Attacker.Health > Defender.Health)
+            {
+                Console.WriteLine("\n{0} wins the battle!", Attacker.Name);
+            }
+            else
+            {
+                Console.WriteLine("\n{0} wins the battle!", Defender.Name);
+            }
         }
     }
 }
